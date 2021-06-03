@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/app.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a href="/" class="logo">Read And Speech</a>
+    <nav class="navbar" aria-label="Bare de navigation">
+      <a class="navbar--item" href="/">Accueil</a>
+      <a class="navbar--item" href="/documentation/index.html">Documentation</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>Utilisation de <i>Read and Speech</i></h1>
+    <p>
+      <i>Read and Speech</i> est une librairie utilisant l'api native de JavaScript afin de lire un texte.
+    </p>
+    <h2>Demonstration</h2>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Saisir votre message" name="message" class="form--input">
+      </div>
+      <div class="form-group">
+        <select name="lang" id="voiceSelector"></select>
+      </div>
+      <input type="submit" value="Lire le message" class="form--button-primary">
+    </form>
+  </main>
+</body>
+</html>
